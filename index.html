@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abhishek Menon</title>
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <style>
+        span a {
+            color: #363636;
+        }
+        .is-horizontal-center {
+            justify-content: center;
+          }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    Abhishek Menon
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                </div>
+                <div id="navbarMenuHeroB" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item is-active">
+                    Home
+                    </a>
+                    <span class="navbar-item">
+                    <a  class="button is-dark" 
+                        href="https://mav-erick.github.io/blog" 
+                        target="_blank">
+                        <span>Blog</span>
+                    </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <div class="is-flex is-horizontal-center">
+                        <figure class="image is-128x128">
+                            <img src="https://avatars1.githubusercontent.com/u/8216048?s=460&v=4" alt="Abhishek Menon">
+                        </figure>
+                    </div>
+                    <br>
+                    <p class="title">
+                        Abhishek Menon
+                    </p>
+                    <p class="subtitle">
+                        Co-Founder and CTO of 
+                        <a href="https://rephike.com">RepHike</a>
+                    </p>
+                    <hr>
+                    <span class="icon is-large">
+                        <a href="https://github.com/mav-erick">
+                            <i class="fab fa-2x fa-github"></i>
+                        </a>
+                    </span>
+                    <span class="icon is-large">
+                        <a href="https://medium.com/@abhishek_menon">
+                            <i class="fab fa-2x fa-medium"></i>
+                        </a>
+                    </span>
+                    <span class="icon is-large">
+                        <a href="https://twitter.com/abhishekmenon_">
+                            <i class="fab fa-2x fa-twitter"></i>
+                        </a>
+                    </span>
+                    <span class="icon is-large">
+                        <a href="https://www.linkedin.com/in/abhishek-menon-21a92798/">
+                            <i class="fab fa-2x fa-linkedin"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="column is-two-thirds">
+                    <div class="content">
+                        <h3 class="subtitle">About</h3>
+                        <p>
+                            I am a product guy, and I specialize in:
+                            <ul>
+                                <li>Identifying the real problem.</li>
+                                <li>Solving it in a creative, simple and efficient way.</li>
+                            </ul>    
+                        </p>
+                        <p>
+                            The best products are characterized by their ability to solve a problem,
+                            and how it makes you feel. Hence I consider every aspect of a product
+                            equally important. 
+                            I am not an advocate of any language or framework,
+                            I believe in using the best tool for the job.
+                        </p>
+                        <p>
+                            After building several products single handedly, which included successes 
+                            and failures alike, I have identified what it takes to make a product that
+                            solves a problem well. But I still have a long way to go in my quest of 
+                            learning. In my free time, I like to write blogs that could help others
+                            with specific problems that I have faced during my journey. You won't find 
+                            any articles about entrepreneurship or product management or anything along those
+                            lines, as I still consider myself a beginner in these areas and I have no business 
+                            in telling other people what to do.
+                        </p>
+                        <p>
+                            I developed a keen interest in programming when I was 11. 
+                            Since then my passion and skills have constantly evolved to 
+                            give me a very strong technological foundation. 
+                            I did my bachelors at Indian Institute of Information Technology, 
+                            Allahabad, which is one of the best institutes in lndia for 
+                            computer science and information technology. My university experience 
+                            played a huge role in building the entrepreneurial skills in me, 
+                            motivating me to start my own company.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+            
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                el.addEventListener('click', () => {
+            
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+            
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+            
+                });
+                });
+            }
+            
+            });
+    </script>
+    
+</body>
+</html>

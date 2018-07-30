@@ -1,0 +1,26 @@
+{
+  "name": "mav-erick.github.io",
+  "version": "1.0.0",
+  "description": "Abhishek Menon's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mav-erick/mav-erick.github.io.git"
+  },
+  "keywords": [
+    "Personal",
+    "Blog"
+  ],
+  "author": "Abhishek Menon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mav-erick/mav-erick.github.io/issues"
+  },
+  "homepage": "https://github.com/mav-erick/mav-erick.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}
