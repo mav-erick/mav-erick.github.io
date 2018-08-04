@@ -17,6 +17,24 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
     <style>
+        html,body {
+            position:relative; 
+            margin:0;
+            padding:0;
+            overflow:auto;
+            height: 100% !important;
+        }
+
+        .section {
+            min-height: 96% !important;
+        }
+
+        footer {
+            position: relative;
+            width: 100%;
+            bottom: 0 !important;
+            padding: 1em !important;
+        }
         span a {
             color: #363636;
         }
@@ -136,7 +154,7 @@
         </div>
 
     </section>
-    <footer class="footer" style="padding: 1rem 1rem; position: absolute; width: 100%; bottom: 0;">
+    <footer class="footer">
         <div class="has-text-centered">
                 © 2018. Abhishek Menon. All rights reserved.
         </div>
